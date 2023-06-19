@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:
+    url(Fundoedit.jpg);
+    background-position: top;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    color: rgba(248, 248, 255, 0.836);
+}
+
+h1{
+    font-size: 66px;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+h2{
+    font-size: 33px;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+.imagens{
+    justify-content: center;
+    display: flex;
+}
+
+img{
+    margin: 3px;
+    width: 200px;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+img:hover{
+    transform: scale(1.1);
+    transition: all 0.2s;
+    cursor: pointer;
+}

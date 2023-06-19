@@ -1,0 +1,57 @@
+body {
+    background-image: url(peachfundo.jpg);
+    background-size: cover;
+}
+
+header {
+    font-size: 77px;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    color: rgba(253, 253, 253, 0.822);
+    font-family: 'Josefin Sans', sans-serif;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.192);
+    border: 30px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.747);
+    margin-top: 59px;
+    padding-top: 15px;
+}
+
+img {
+    margin: auto;
+    display: block;
+    width: 35%;
+    border-radius: 15px;
+    border: solid;
+    border-color: rgba(255, 247, 247, 0.993);
+    margin: 50px 590px 50px;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.peacharte {
+    font-size: 35px;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgba(253, 253, 253, 0.822);
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.089);
+    background-color:  rgba(0, 0, 0, 0.808);
+    border-radius: 15px;
+}
+
+.peacharte2 {
+    font-size: 35px;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgba(253, 253, 253, 0.822);
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.089);
+    background-color:  rgba(0, 0, 0, 0.808);
+    border-radius: 15px;
+}
